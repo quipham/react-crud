@@ -1,8 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Route } from "react-router-dom";
+import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import Navbar from './components/Navbar/index';
+import Footer from './components/Footer/index';
+import LandingPage from './layouts/LandingPage/index';
+import Header from './components/Header/index';
+
+ReactDOM.render(
+  <BrowserRouter>
+    <div>
+      <Navbar />
+      <Header />
+      <Route exact path="/" component={LandingPage} />
+      <Footer />
+    </div>
+  </BrowserRouter>,
+  document.getElementById("root")
+);
 registerServiceWorker();
