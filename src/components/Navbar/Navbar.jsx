@@ -7,7 +7,6 @@ class Navbar extends React.Component {
       scrolling: false,
       navBarStyle: "navbar navbar-expand-lg navbar-light fixed-top"
     };
-
     this.handleScroll = this.handleScroll.bind(this);
   }
 

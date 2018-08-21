@@ -9,9 +9,7 @@ const Footer = () => {
             <h2 className="section-heading">Let's Get In Touch!</h2>
             <hr className="my-4" />
             <p className="mb-5">
-              Ready to start your next project with us? That's great! Give us a
-              call or send us an email and we will get back to you as soon as
-              possible!
+              My very first Blog
             </p>
           </div>
         </div>
