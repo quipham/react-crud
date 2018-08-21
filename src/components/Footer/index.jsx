@@ -18,13 +18,13 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 ml-auto text-center">
             <i className="fa fa-phone fa-3x mb-3 sr-contact" />
-            <p>123-456-6789</p>
+            <p>090-247-5388</p>
           </div>
           <div className="col-lg-4 mr-auto text-center">
             <i className="fa fa-envelope-o fa-3x mb-3 sr-contact" />
             <p>
-              <a href="mailto:your-email@your-domain.com">
-                feedback@startbootstrap.com
+              <a href="mailto:qui.phamnhu@gmail.com">
+                qui.phamnhu@gmail.com
               </a>
             </p>
           </div>
