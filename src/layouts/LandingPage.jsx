@@ -1,6 +1,6 @@
 import React from "react";
-import Services from "./../../components/Services/Services";
-import Portfolio from "./../../components/Portfolio/Portfolio";
+import Services from "./../components/Services";
+import Portfolio from "./../components/Portfolio";
 
 const LandingPage = () => {
   return (
