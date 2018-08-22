@@ -3,10 +3,10 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route } from "react-router-dom";
 import registerServiceWorker from "./registerServiceWorker";
 
-import Navbar from './components/Navbar/index';
-import Footer from './components/Footer/index';
-import LandingPage from './layouts/LandingPage/index';
-import Header from './components/Header/index';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+import LandingPage from './layouts/LandingPage/LandingPage';
+import Header from './components/Header/Header';
 
 ReactDOM.render(
   <BrowserRouter>
